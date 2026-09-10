@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mis Postres | Postres en vaso</title>
+  <meta name="description" content="Postres en vaso artesanales, cremosos y llenos de sabor.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header" id="inicio">
+    <a class="brand" href="#inicio" aria-label="Mis Postres - inicio">
+      <span class="brand-cup">🍰</span>
+      <span>
+        <strong>Mis Postres</strong>
+        <small>POSTRES QUE ENAMORAN</small>
+      </span>
+    </a>
+
+    <nav class="nav" aria-label="Navegación principal">
+      <a class="active" href="#inicio">INICIO</a>
+      <a href="#sabores">SABORES</a>
+      <a href="#precios">PRECIOS</a>
+      <a href="#pedidos">PEDIDOS</a>
+      <a href="#nosotros">NOSOTROS</a>
+      <a href="#contacto">CONTACTO</a>
+    </nav>
+
+    <a class="whatsapp-top" href="https://wa.me/5491123234478" target="_blank" rel="noopener noreferrer">◉ &nbsp; PEDÍ POR WHATSAPP</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <h1>Postres en vaso</h1>
+        <div class="script-title">Hechos con amor ♡</div>
+        <p>Postres artesanales, cremosos y llenos de sabor.<br>Elegí tu favorito y disfrutá cada cucharada.</p>
+        <div class="features">
+          <div><span>♧</span><b>Ingredientes<br>de calidad</b></div>
+          <div><span>❄</span><b>Siempre<br>frescos</b></div>
+          <div><span>♡</span><b>Hechos<br>con amor</b></div>
+          <div><span>⌁</span><b>Recetas<br>artesanales</b></div>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="assets/hero-postres.jpg" alt="Postres en vaso de Mis Postres">
+      </div>
+    </section>
+
+    <section class="products-section" id="sabores">
+      <div class="section-heading">
+        <div class="eyebrow">→ &nbsp; NUESTROS SABORES &nbsp; ←</div>
+        <h2>Elegí tu favorito ♡</h2>
+      </div>
+
+      <div class="products-grid" id="precios">
+        <!-- PRODUCTO 1 -->
+        <article class="product-card" data-product="Choco Crunch" data-price-200="3500" data-price-400="6000">
+          <div class="product-image"><img src="assets/choco-crunch.jpg" alt="Choco Crunch"></div>
+          <div class="product-info">
+            <h3>Choco Crunch</h3>
+            <p>Chocolate, cereal<br>crocante y crema.</p>
+            <div class="sizes">
+              <div class="size"><b>200 g</b><div class="quantity"><button data-action="minus">−</button><span>1</span><button data-action="plus">+</button></div><button class="order-btn" data-size="200 g">◉ PEDIR 200 g</button></div>
+              <div class="size"><b>400 g</b><div class="quantity"><button data-action="minus">−</button><span>1</span><button data-action="plus">+</button></div><button class="order-btn" data-size="400 g">◉ PEDIR 400 g</button></div>
+            </div>
+          </div>
+        </article>
+
+        <!-- PRODUCTO 2 -->
+        <article class="product-card" data-product="Oreo Lovers" data-price-200="3500" data-price-400="6000">
+          <div class="product-image"><img src="assets/oreo-lovers.jpg" alt="Oreo Lovers"></div>
+          <div class="product-info">
+            <h3>Oreo Lovers</h3>
+            <p>Crema, Oreo<br>y mucho más Oreo.</p>
+            <div class="sizes">
+              <div class="size"><b>200 g</b><div class="quantity"><button data-action="minus">−</button><span>1</span><button data-action="plus">+</button></div><button class="order-btn" data-size="200 g">◉ PEDIR 200 g</button></div>
+              <div class="size"><b>400 g</b><div class="quantity"><button data-action="minus">−</button><span>1</span><button data-action="plus">+</button></div><button class="order-btn" data-size="400 g">◉ PEDIR 400 g</button></div>
+            </div>
+          </div>
+        </article>
+
+        <!-- PRODUCTO 3 -->
+        <article class="product-card" data-product="Frutilla" data-price-200="3500" data-price-400="6000">
+          <div class="product-image"><img src="assets/frutilla.jpg" alt="Frutilla"></div>
+          <div class="product-info">
+            <h3>Frutilla</h3>
+            <p>Crema de vainilla,<br>frutillas y salsa de frutilla.</p>
+            <div class="sizes">
+              <div class="size"><b>200 g</b><div class="quantity"><button data-action="minus">−</button><span>1</span><button data-action="plus">+</button></div><button class="order-btn" data-size="200 g">◉ PEDIR 200 g</button></div>
+              <div class="size"><b>400 g</b><div class="quantity"><button data-action="minus">−</button><span>1</span><button data-action="plus">+</button></div><button class="order-btn" data-size="400 g">◉ PEDIR 400 g</button></div>
+            </div>
+          </div>
+        </article>
+
+        <!-- PRODUCTO 4 -->
+        <article class="product-card" data-product="Bombita Criolla" data-price-200="3500" data-price-400="6000">
+          <div class="product-image"><img src="assets/bombita-criolla.jpg" alt="Bombita Criolla"></div>
+          <div class="product-info">
+            <h3>Bombita Criolla</h3>
+            <p>Dulce de leche,<br>vainillas y crema.</p>
+            <div class="sizes">
+              <div class="size"><b>200 g</b><div class="quantity"><button data-action="minus">−</button><span>1</span><button data-action="plus">+</button></div><button class="order-btn" data-size="200 g">◉ PEDIR 200 g</button></div>
+              <div class="size"><b>400 g</b><div class="quantity"><button data-action="minus">−</button><span>1</span><button data-action="plus">+</button></div><button class="order-btn" data-size="400 g">◉ PEDIR 400 g</button></div>
+            </div>
+          </div>
+        </article>
+
+        <!-- PRODUCTO 5 -->
+        <article class="product-card" data-product="Tentación de Limón" data-price-200="3500" data-price-400="6000">
+          <div class="product-image"><img src="assets/tentacion-limon.jpg" alt="Tentación de Limón"></div>
+          <div class="product-info">
+            <h3>Tentación de Limón</h3>
+            <p>Crema de limón,<br>vainilla y crumble.</p>
+            <div class="sizes">
+              <div class="size"><b>200 g</b><div class="quantity"><button data-action="minus">−</button><span>1</span><button data-action="plus">+</button></div><button class="order-btn" data-size="200 g">◉ PEDIR 200 g</button></div>
+              <div class="size"><b>400 g</b><div class="quantity"><button data-action="minus">−</button><span>1</span><button data-action="plus">+</button></div><button class="order-btn" data-size="400 g">◉ PEDIR 400 g</button></div>
+            </div>
+          </div>
+        </article>
+
+        <!-- PRODUCTO 6 -->
+        <article class="product-card" data-product="Choco Bombón" data-price-200="3500" data-price-400="6000">
+          <div class="product-image"><img src="assets/choco-bombon.jpg" alt="Choco Bombón"></div>
+          <div class="product-info">
+            <h3>Choco Bombón</h3>
+            <p>Chocolate, dulce de leche<br>y brownie.</p>
+            <div class="sizes">
+              <div class="size"><b>200 g</b><div class="quantity"><button data-action="minus">−</button><span>1</span><button data-action="plus">+</button></div><button class="order-btn" data-size="200 g">◉ PEDIR 200 g</button></div>
+              <div class="size"><b>400 g</b><div class="quantity"><button data-action="minus">−</button><span>1</span><button data-action="plus">+</button></div><button class="order-btn" data-size="400 g">◉ PEDIR 400 g</button></div>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="info-strip">
+        <div><span>🛵</span><b>Entregas en tu zona</b><small>Consultá tu área de envío</small></div>
+        <div><span>▣</span><b>Conservación en frío</b><small>Para garantizar la frescura</small></div>
+        <div><span>◷</span><b>Pedidos con anticipación</b><small>Recomendamos 24 hs antes</small></div>
+        <div><span>▤</span><b>Medios de pago</b><small>Efectivo, transferencia y más</small></div>
+      </div>
+    </section>
+
+    <section class="simple-section" id="pedidos">
+      <h2>Hacé tu pedido</h2>
+      <p>Elegí sabor, tamaño y cantidad. El botón de cada producto prepara el pedido para enviarlo por WhatsApp.</p>
+    </section>
+
+    <section class="simple-section" id="nosotros">
+      <h2>Nosotros</h2>
+      <p>Postres artesanales preparados con dedicación para que cada cucharada sea especial.</p>
+    </section>
+
+    <section class="simple-section" id="contacto">
+      <h2>Contacto</h2>
+      <p>Modificá el número de WhatsApp en <strong>script.js</strong> para recibir los pedidos directamente.</p>
+    </section>
+  </main>
+
+  <footer>© 2026 Mis Postres · Postres que enamoran ♡</footer>
+  <script src="script.js"></script>
+</body>
+</html>
